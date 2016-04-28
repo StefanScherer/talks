@@ -49,8 +49,40 @@ https://blog.docker.com/2016/03/docker-for-mac-windows-beta/
 ---
 background-image: url(assets/beta_docker_com.png)
 ---
+background-image: url(assets/hyperv01.png)
+---
+background-image: url(assets/hyperv02.png)
+---
+background-image: url(assets/installer01.png)
+---
+background-image: url(assets/installer02.png)
+---
+background-image: url(assets/invitation.png)
+---
 class: middle, center, inverse
 # Demo time!
+---
+background-image: url(assets/tray.png)
+---
+background-image: url(assets/docker-version-no-envs.png)
+---
+background-image: url(assets/nginx.png)
+---
+background-image: url(assets/nginx-ie.png)
+---
+background-image: url(assets/intel-container.png)
+---
+background-image: url(assets/arm-container.png)
+---
+# Docker for Windows - Recap
+
+## No VirtualBox, but built-in Hyper-V
+
+## No docker-machine
+
+## Port forwarding to host "docker"
+
+## Multi architecture support
 ---
 class: left, inverse
 
