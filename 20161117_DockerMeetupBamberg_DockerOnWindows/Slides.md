@@ -206,18 +206,19 @@ class: middle, center
 # Demo time!
 
 ---
-# Resources
+# Getting Started
 
-## Learn more about Windows Containers
-  * Microsoft: https://aka.ms/containers
-  * Docker Labs: https://github.com/docker/labs/tree/master/windows
+## Containers at Microsoft
+  * https://microsoft.com/containers
 
-## Continue providing feedback and bug reports
+## Windows Container Docs
+  * https://aka.ms/windowscontainers
 
-  * Microsoft Container forum: https://aka.ms/containers/forum
-  * Microsoft Documentation: https://github.com/Microsoft/Virtualization-Documentation
-  * Docker Engine: https://github.com/docker/docker
-  * Docker for Windows: https://github.com/docker/for-win
+## Community Links
+  * https://aka.ms/windowscontainers/community
+
+## Docker Labs
+  * https://github.com/docker/labs/tree/master/windows
 
 ---
 class: left, inverse
