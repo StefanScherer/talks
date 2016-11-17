@@ -13,28 +13,7 @@ class: middle, center, inverse
 Stefan Scherer [@stefscherer](https://twitter.com/stefscherer)
 
 November 17 2016, Docker Meetup Bamberg
----
-# Who am I?
----
-# Who am I?
 
-Software Engineer at SEAL Systems
----
-background-image: url(assets/chocolatey.png)
-# Who am I?
-
-Software Engineer at SEAL Systems
-
-Maintainer of Docker chocolatey packages
----
-background-image: url(assets/chocolatey_captain.png)
-# Who am I?
-
-Software Engineer at SEAL Systems
-
-Maintainer of Docker chocolatey packages
-
-Docker Captain
 ---
 background-image: url(assets/chocolatey_captain_mvp.png)
 # Who am I?
