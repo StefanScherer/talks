@@ -241,6 +241,11 @@ class: left, inverse
 ### [github.com/StefanScherer](https://github.com/StefanScherer)
 ### scherer_stefan@icloud.com
 
+Slides available as Windows container image
+```
+docker run -p 8000:8000 stefanscherer/talks:2016-11-17
+```
+
 .invisible[#
 
 
