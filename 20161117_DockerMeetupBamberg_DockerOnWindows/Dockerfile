@@ -1,12 +1,6 @@
-FROM microsoft/iis
-
-RUN mkdir C:\site
-
-RUN powershell -NoProfile -Command \
-    Import-module IISAdministration; \
-    New-IISSite -Name "Talks" -PhysicalPath C:\site -BindingInformation "*:8000:"; \
-    Add-WebConfiguration -Filter system.webServer/staticContent -AtIndex 0 -Value @{fileExtension='md'; mimeType='application/markdown'}
+FROM stefanscherer/webserver-windows
 
 COPY . C:\site
+WORKDIR C:\\site
 
-EXPOSE 8000
+EXPOSE 8080

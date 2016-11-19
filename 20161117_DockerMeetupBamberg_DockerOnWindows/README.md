@@ -7,19 +7,36 @@
 
 ## Container
 
-You can run the slides as a Windows container. Currently I use IIS for the static files. But I think I will create a smaller image in the future.
+You can run the slides as a Windows container.
 
+### Run container
 ```
-docker run --rm --name=dockerbamberg -p 8000:8000 -d stefanscherer/talks:2016-11-17
+docker run --rm --name=dockerbamberg -p 8080:8080 -d stefanscherer/talks:2016-11-17
 ```
 
 Open a browser
 
 ```
-start http://$(docker inspect -f '{{ .NetworkSettings.Networks.nat.IPAddress }}' dockerbamberg):8000
+start http://$(docker inspect -f '{{ .NetworkSettings.Networks.nat.IPAddress }}' dockerbamberg):8080
+```
+
+
+### Build image with IIS
+
+The IIS image is based on microsoft/windowsservercore.
+
+```
+docker build -t stefanscherer/talks:2016-11-17 -f Dockerfile.iis .
+```
+
+### Build image with minimal webserver
+
+My minimal webserver is only 5 MByte and based on microsoft/nanoserver.
+
+```
+docker build -t stefanscherer/talks:2016-11-17 .
 ```
 
 ### Description for Remark Markdown
 
 * https://github.com/gnab/remark/wiki/Markdown
-
